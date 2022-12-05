@@ -107,7 +107,10 @@ modules-right = round-left mpd
 
 ### Chnvok
 
-![desktop](screenshots/chnvok/desktop.png)
+![desktop](screenshots/chnvok/Screenshot_2022-10-31-09-33-58_1366x768.png)
+
+![desktop](screenshots/chnvok/Screenshot_2022-12-05-04-04-00_1366x768.png)
+
 
 ```ini
 modules-left = date weather mpd
