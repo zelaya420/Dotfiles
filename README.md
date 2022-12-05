@@ -114,13 +114,14 @@ modules-right = round-left mpd
 
 ```ini
 modules-left = date weather mpd
-modules-center = bspwm
+modules-center = i3
 modules-right = memory cpu xbacklight pulseaudio session
 ```
 
 ### Dracula
 
-![desktop](screenshots/dracula/desktop.png)
+![desktop](screenshots/dracula/Screenshot_2022-12-05-04-15-14_1366x768.png)
+![desktop](screenshots/dracula/Screenshot_2022-12-05-04-15-35_1366x768.png )
 
 ```ini
 modules-left = date margin weather margin mpd
