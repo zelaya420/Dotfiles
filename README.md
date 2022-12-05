@@ -113,60 +113,76 @@ modules-right = round-left mpd
 
 
 ```ini
-modules-left = date weather mpd
+modules-left = date weather spotify spotify-prev spotify-play-pause spotify-next
 modules-center = i3
 modules-right = memory cpu xbacklight pulseaudio session
 ```
 
 ### Dracula
 
-![desktop](screenshots/dracula/Screenshot_2022-12-05-04-15-14_1366x768.png)
+![desktop](screenshots/dracula/Screenshot_2022-12-05-04-15-14_1366x768.png) 
 ![desktop](screenshots/dracula/Screenshot_2022-12-05-04-15-35_1366x768.png )
 
 ```ini
-modules-left = date margin weather margin mpd
-modules-center = bspwm
+modules-left = date margin weather margin spotify spotify-prev spotify-play-pause spotify-next
+modules-center = i3
 modules-right = memory margin cpu margin xbacklight margin pulseaudio margin battery margin session
 ```
 
 ### Gruvbox
 
-![desktop](screenshots/gruvbox/desktop.png)
+![desktop](screenshots/gruvbox/Screenshot_2022-12-05-04-22-16_1366x768.png)
+![desktop](screenshots/gruvbox/Screenshot_2022-12-05-04-24-56_1366x768.png)
+
 
 ```ini
 modules-left = bspwm
-modules-center = round-left-blue weather date round-right-blue margin round-left mpd round-right
+modules-center = round-left-blue weather date round-right-blue margin round-left spotify spotify-prev spotify-play-pause spotify-next round-right
 modules-right = cpu memory pulseaudio xbacklight
 ```
 
 ### Lofi
 
-![desktop](screenshots/lofi/desktop.png)
+![desktop](screenshots/lofi/Screenshot_2022-12-05-04-32-39_1366x768.png)
+![desktop](screenshots/lofi/Screenshot_2022-12-05-04-33-27_1366x768.png)
+
 
 ```ini
-modules-left = bspwm
-modules-center = mpd
+modules-left = i3
+modules-center = spotify spotify-prev spotify-play-pause spotify-next
 modules-right = date weather
 ```
 
 ### Material
 
-![desktop](screenshots/material/desktop.png)
+![desktop](screenshots/material/Screenshot_2022-12-05-04-38-54_1366x768.png)
 
 ```ini
-modules-left = weather margin date margin mpd tri-upper-right tri-lower-left bspwm tri-upper-right
+modules-left = weather margin date margin spotify spotify-prev spotify-play-pause spotify-next tri-upper-right tri-lower-left i3 tri-upper-right
 modules-center = 
 modules-right = memory margin cpu margin xbacklight margin pulseaudio
 ```
 
 ### Minimal
 
-![desktop](screenshots/minimal/desktop.png)
+![desktop](screenshots/minimal/Screenshot_2022-12-05-04-49-27_1366x768.png)
+![desktop](screenshots/minimal/Screenshot_2022-12-05-04-49-09_1366x768.png)
 
 ```ini
-modules-left = date weather bspwm
-modules-center = mpd
+modules-left = date weather i3
+modules-center = spotify spotify-prev spotify-play-pause spotify-next
 modules-right = cpu memory xbacklight pulseaudio
+```
+
+### Lorena
+
+![desktop](screenshots/lorena/IMG-20221203-WA0013.jpg)
+![desktop](screenshots/lorena/Screenshot_2022-12-03-14-50-42_1366x768.png)
+
+```ini
+modules-left = launcher sep2 i3 sep2 sep spotify sep spotify-prev spotify-play-pause spotify-next
+modules-center = title
+modules-right = sep2 updates sep filesystem sep backlight sep memory sep cpu sep battery sep date sep session
 ```
 
 ### Nord
@@ -174,8 +190,8 @@ modules-right = cpu memory xbacklight pulseaudio
 ![desktop](screenshots/nord/desktop.png)
 
 ```ini
-modules-left = date margin weather margin mpd round-right
-modules-center = trap-left bspwm trap-right
+modules-left = date margin weather margin spotify spotify-prev spotify-play-pause spotify-next round-right
+modules-center = trap-left i3 trap-right
 modules-right = memory margin cpu margin xbacklight margin pulseaudio margin wallz margin session
 ```
 
@@ -184,7 +200,7 @@ modules-right = memory margin cpu margin xbacklight margin pulseaudio margin wal
 ![desktop](screenshots/onedark/desktop.png)
 
 ```ini
-modules-left = bspwm margin date margin weather margin mpd
+modules-left = i3 margin date margin weather margin spotify spotify-prev spotify-play-pause spotify-next
 modules-center =
 modules-right = cpu margin memory margin pulseaudio margin xbacklight margin wallz margin session
 ```
