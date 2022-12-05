@@ -97,7 +97,7 @@ _Enjoy!_
 
 ### Murz
 
-![desktop](screenshots/murz/desktop.png)
+![desktop](screenshots/murz/Screenshot_2022-10-31-02-59-45_1366x768.png)
 
 ```ini
 modules-left = date weather round-right
