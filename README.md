@@ -24,23 +24,8 @@ $HOME
 
 or just search how to install fonts!
 
-### Cloning
-
-Now you need to clone the repo in the \$HOME directory (because the path inside the files points to **$HOME/polybar-collection**):
-
-```bash
 $HOME
--> git clone --depth 1 https://github.com/Murzchnvok/polybar-collection
-```
-
-or clone to other directory and create a symlink of the folder in the \$HOME directory:
-
-```bash
-$HOME/Projects
--> git clone --depth 1 https://github.com/Murzchnvok/polybar-collection
-
-$HOME
--> ln -s $HOME/Projects/polybar-collection $HOME/polybar-collection
+-> ln -s $HOME/.config/polybar-collection $HOME/polybar-collection
 ```
 
 ### Running
