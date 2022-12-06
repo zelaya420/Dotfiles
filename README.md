@@ -54,7 +54,7 @@ $HOME
 Now we only have one file **modules.ini** to change the modules that we like to use. I believe that's a better way to configure our Polybar themes:
 
 ```ini
-modules-left = date wallz nft tor weather bspwm i3
+modules-left = date wallz nft tor weather  i3 rofi-usb-mount
 modules-center = mpd
 modules-right = wired cpu memory xbacklight pulseaudio
 ```
@@ -93,8 +93,8 @@ _Enjoy!_
 
 ```ini
 modules-left = date weather round-right
-modules-center = round-left bspwm round-right
-modules-right = round-left mpd
+modules-center = round-left i3 rofi-usb-mount round-right
+modules-right = round-left spotify spotify-prev spotify-play-pause spotify-next
 ```
 
 ### Chnvok
@@ -106,7 +106,7 @@ modules-right = round-left mpd
 
 ```ini
 modules-left = date weather spotify spotify-prev spotify-play-pause spotify-next
-modules-center = i3
+modules-center = i3 rofi-usb-mount
 modules-right = memory cpu xbacklight pulseaudio session
 ```
 
@@ -117,7 +117,7 @@ modules-right = memory cpu xbacklight pulseaudio session
 
 ```ini
 modules-left = date margin weather margin spotify spotify-prev spotify-play-pause spotify-next
-modules-center = i3
+modules-center = i3 rofi-usb-mount
 modules-right = memory margin cpu margin xbacklight margin pulseaudio margin battery margin session
 ```
 
@@ -128,7 +128,7 @@ modules-right = memory margin cpu margin xbacklight margin pulseaudio margin bat
 
 
 ```ini
-modules-left = bspwm
+modules-left = i3 rofi-usb-mount
 modules-center = round-left-blue weather date round-right-blue margin round-left spotify spotify-prev spotify-play-pause spotify-next round-right
 modules-right = cpu memory pulseaudio xbacklight
 ```
@@ -140,7 +140,7 @@ modules-right = cpu memory pulseaudio xbacklight
 
 
 ```ini
-modules-left = i3
+modules-left = i3 rofi-usb-mount
 modules-center = spotify spotify-prev spotify-play-pause spotify-next
 modules-right = date weather
 ```
@@ -150,7 +150,7 @@ modules-right = date weather
 ![desktop](screenshots/material/Screenshot_2022-12-05-04-38-54_1366x768.png)
 
 ```ini
-modules-left = weather margin date margin spotify spotify-prev spotify-play-pause spotify-next tri-upper-right tri-lower-left i3 tri-upper-right
+modules-left = weather margin date margin spotify spotify-prev spotify-play-pause spotify-next tri-upper-right tri-lower-left i3 rofi-usb-mount tri-upper-right
 modules-center = 
 modules-right = memory margin cpu margin xbacklight margin pulseaudio
 ```
@@ -161,7 +161,7 @@ modules-right = memory margin cpu margin xbacklight margin pulseaudio
 ![desktop](screenshots/minimal/Screenshot_2022-12-05-04-49-09_1366x768.png)
 
 ```ini
-modules-left = date weather i3
+modules-left = date weather i3 rofi-usb-mount
 modules-center = spotify spotify-prev spotify-play-pause spotify-next
 modules-right = cpu memory xbacklight pulseaudio
 ```
@@ -172,7 +172,7 @@ modules-right = cpu memory xbacklight pulseaudio
 ![desktop](screenshots/lorena/Screenshot_2022-12-03-14-50-42_1366x768.png)
 
 ```ini
-modules-left = launcher sep2 i3 sep2 sep spotify sep spotify-prev spotify-play-pause spotify-next
+modules-left = launcher sep2 i3 sep2 rofi-usb-mount sep spotify sep spotify-prev spotify-play-pause spotify-next
 modules-center = title
 modules-right = sep2 updates sep filesystem sep backlight sep memory sep cpu sep battery sep date sep session
 ```
@@ -183,7 +183,7 @@ modules-right = sep2 updates sep filesystem sep backlight sep memory sep cpu sep
 
 ```ini
 modules-left = date margin weather margin spotify spotify-prev spotify-play-pause spotify-next round-right
-modules-center = trap-left i3 trap-right
+modules-center = trap-left i3 rofi-usb-mount trap-right
 modules-right = memory margin cpu margin xbacklight margin pulseaudio margin wallz margin session
 ```
 
@@ -192,7 +192,7 @@ modules-right = memory margin cpu margin xbacklight margin pulseaudio margin wal
 ![desktop](screenshots/onedark/desktop.png)
 
 ```ini
-modules-left = i3 margin date margin weather margin spotify spotify-prev spotify-play-pause spotify-next
+modules-left = i3 rofi-usb-mount margin date margin weather margin spotify spotify-prev spotify-play-pause spotify-next
 modules-center =
 modules-right = cpu margin memory margin pulseaudio margin xbacklight margin wallz margin session
 ```
