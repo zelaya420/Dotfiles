@@ -94,7 +94,7 @@ _Enjoy!_
 ```ini
 modules-left = date weather round-right
 modules-center = round-left i3 rofi-usb-mount round-right
-modules-right = round-left spotify spotify-prev spotify-play-pause spotify-next
+modules-right = round-left spotify spotify-prev spotify-play-pause spotify-next battery session
 ```
 
 ### Chnvok
@@ -107,7 +107,7 @@ modules-right = round-left spotify spotify-prev spotify-play-pause spotify-next
 ```ini
 modules-left = date weather spotify spotify-prev spotify-play-pause spotify-next
 modules-center = i3 rofi-usb-mount
-modules-right = memory cpu xbacklight pulseaudio session
+modules-right = memory cpu xbacklight battery pulseaudio session
 ```
 
 ### Dracula
@@ -118,7 +118,7 @@ modules-right = memory cpu xbacklight pulseaudio session
 ```ini
 modules-left = date margin weather margin spotify spotify-prev spotify-play-pause spotify-next
 modules-center = i3 rofi-usb-mount
-modules-right = memory margin cpu margin xbacklight margin pulseaudio margin battery margin session
+modules-right = memory margin cpu margin xbacklight battery margin pulseaudio margin battery margin session
 ```
 
 ### Gruvbox
@@ -130,7 +130,7 @@ modules-right = memory margin cpu margin xbacklight margin pulseaudio margin bat
 ```ini
 modules-left = i3 rofi-usb-mount
 modules-center = round-left-blue weather date round-right-blue margin round-left spotify spotify-prev spotify-play-pause spotify-next round-right
-modules-right = cpu memory pulseaudio xbacklight
+modules-right = cpu memory pulseaudio xbacklight battery
 ```
 
 ### Lofi
@@ -142,7 +142,7 @@ modules-right = cpu memory pulseaudio xbacklight
 ```ini
 modules-left = i3 rofi-usb-mount
 modules-center = spotify spotify-prev spotify-play-pause spotify-next
-modules-right = date weather
+modules-right = date weather battery
 ```
 
 ### Material
@@ -152,7 +152,7 @@ modules-right = date weather
 ```ini
 modules-left = weather margin date margin spotify spotify-prev spotify-play-pause spotify-next tri-upper-right tri-lower-left i3 rofi-usb-mount tri-upper-right
 modules-center = 
-modules-right = memory margin cpu margin xbacklight margin pulseaudio
+modules-right = memory margin cpu margin battery xbacklight margin pulseaudio
 ```
 
 ### Minimal
@@ -163,7 +163,7 @@ modules-right = memory margin cpu margin xbacklight margin pulseaudio
 ```ini
 modules-left = date weather i3 rofi-usb-mount
 modules-center = spotify spotify-prev spotify-play-pause spotify-next
-modules-right = cpu memory xbacklight pulseaudio
+modules-right = cpu memory xbacklight battery pulseaudio session
 ```
 
 ### Lorena
