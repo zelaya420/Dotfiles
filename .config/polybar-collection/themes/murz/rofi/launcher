@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rofi -no-lazy-grab -show run -theme $HOME/.config/polybar-collection/themes/murz/rofi/launcher.rasi
