@@ -1,0 +1,2 @@
+#!/bin/sh
+rofi -no-lazy-grab -show run -theme  $HOME/.config/polybar-collection/themes/chnvok/rofi/launcher.rasi
